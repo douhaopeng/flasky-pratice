@@ -45,10 +45,6 @@ class Role(db.Model):
         return '<Role %r>' % self.name
 
 
-def user():
-    pass
-
-
 class User(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
